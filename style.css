@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: inter;
+    color: white;
+    /* background-color: black; */
 }
 
 /* shared styles */
@@ -10,19 +12,23 @@
     max-width: 1060px;
 }
 
+.gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* nav styles */
 
 header{
-    background: black;
-
+    background: linear-gradient(180deg, black , rgb(30, 29, 29) , black);
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    margin-top: 57px;
+    padding: 57px 0 20px 0;
     height: 46px;
+    /* background-color: black; */
 
 }
 
@@ -58,4 +64,204 @@ nav h3{
     background-color:rgba(230, 83, 60, 1);
     padding: 8px 20px;
     border-radius: 45px;
+    font-weight: 600;
+    font-size: 18px;
 }
+
+/* banner designs */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.banner-texts{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    max-width: 520px;
+    height: 440px;
+}
+.banner-texts h1{
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 5.8125rem;
+    margin: 0;
+    padding: 0;
+}
+.unique{
+    font-family: Miama;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.875rem;
+}
+
+.banner-texts p{
+    margin: 28px 0;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+.button-group{
+    display: flex;
+    gap: 15px;
+}
+.btn-1{
+    background-color:rgba(230, 83, 60, 1);
+    padding: 16px 46.5px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn-2{
+    background: transparent;
+    padding: 16px 46.5px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    cursor: pointer;
+}
+ .workout-texts{
+    position: absolute;
+    margin-left: 930px;
+    margin-top: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 15px;
+    background: rgba(48, 48, 48, 0.54);
+ }
+ .tutorial-texts{
+    display: flex;
+    position: absolute;
+    padding: 20px 25px;
+    border-radius: 15px;
+    margin-top: 420px;
+    margin-left: 650px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    gap: 12px;
+
+ }
+ .dot{
+    background: rgba(230, 83, 60, 1);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+ }
+ .number-1{
+    font-weight: 900;
+    font-size: 1.5rem;
+ }
+ .number-2{
+    font-weight: 900;
+    font-size: 2.5rem;
+ }
+
+ /*  responsive section for iphone */
+
+ @media screen and (max-width: 430px ) {
+    .container{
+        max-width: 353px;
+    }
+    .links{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .tutorial-texts{
+        margin-top: 650px;
+        margin-left: 5px;
+        font-size: 12px;
+        padding: 15px 17px;
+    } 
+    .number-1{
+        font-size: 18px;
+    }
+    .workout-texts{
+        padding: 12px 18px;
+        margin-top: 450px;
+        margin-left: 190px;
+        font-size: 10px;
+        border-radius: 9px;
+    }
+    .number-2{
+        font-size: 30px;
+    }
+
+    .banner-texts{
+        max-width: 352px;
+        height: 335px;
+        margin-top: 51px;
+    }
+    .banner-texts h1{
+        font-size: 2.25rem;
+        line-height: 43px;
+        
+    }
+    .unique{
+        font-size: 2.25rem;
+    }
+    .btn-1{
+        padding:16px 40px;
+        font-size: 1.125rem;
+        border-radius: 42px;
+        max-width: 169px;
+        height: 54px; 
+    }
+    
+    .btn-2{
+        padding:16px;
+        font-size: 1.125rem;
+        border-radius: 42px;
+        max-width: 169px;
+        height: 54px;
+    }
+    .banner-img{
+        height: 100vh;
+    }
+ }
+
+ 
+ /* responsive section for ipad */
+
+ @media screen and (min-width:431px) and (max-width: 768px) {
+
+    .container{
+        width: 684px;
+    }
+
+    .workout-texts{
+        margin-left: 360px;
+        margin-top: 580px;
+    }
+    .tutorial-texts{
+        margin-left: 110px;
+         margin-top: 900px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-img img{
+        display: flex;
+        justify-content: center;
+        /* margin-top: 100px; */
+
+    }
+    .banner-img{
+      height: 100vh;
+      margin: 0 auto;
+      
+      
+    }
+ }
