@@ -163,6 +163,7 @@ nav h3{
     display: inline-block;
     border: none;
     border-radius: 50%;
+    cursor: pointer;
  }
  .number-1{
     font-weight: 900;
@@ -232,8 +233,302 @@ nav h3{
 
 /* habit section */
 
+/* run section */
+.run{
+    background-color: #222222;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+}
+.run-texts{
+    max-width: 443px;
+    padding: 40px 55px;
+    gap: 10px;
+}
+.run h2{
+    font-size: 3rem;
+    margin-bottom:15px;
+}
+.run p{
+    font-size: 0.875rem;
+    margin-bottom:35px;
 
- /*  responsive section for iphone */
+}
+.run-texts button{
+    background-color:rgba(230, 83, 60, 1);
+    padding: 16px 71px;
+    border: none;
+    border-radius: 45px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.run img{
+    max-width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    background-position: 100px 30px;
+    
+}
+.run-image img{
+    margin: 30px 30px; 
+}
+
+.bmi-caption{
+    width: 670px;
+    margin: 0 auto;
+    margin-top:90px;
+}
+.bmi-caption h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.bmi-caption p{
+    font-size: 0.875rem;
+}
+/* run section */
+
+
+/* bmi section */
+
+.bmi{
+    margin-top: 90px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-chart{
+    padding: 60px 0 50px 120px;
+}
+.bmi-chart h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    
+}
+table {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 310px;
+    text-align: left;
+    /* padding: 15px; */
+}
+table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 18px;
+}
+
+table th{
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 18px;
+}
+
+.bmi-form {
+    max-width: 580px;
+    margin: 50px 120px 50px 0;
+}
+
+.bmi-form h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.bmi-form p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-top: 15px;
+}
+.bmi-form form{
+    margin-top: 35px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2,1fr);
+}
+form .grid-5{
+    grid-column: span 2;
+}
+form input{
+    padding: 13px 0 13px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+
+
+}
+.bmi-form button{
+    background-color:rgba(230, 83, 60, 1);
+    padding: 16px 71px;
+    border: none;
+    border-radius: 45px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: 35px;
+    cursor: pointer;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* bmi section */
+
+/* team section */
+
+.team{
+    margin: 0 auto;
+    margin-top: 90px;
+    max-width: 80%;
+    padding-bottom: 90px;
+
+}
+.team-texts{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.team-texts h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.team-texts p , .card p{
+    font-size: 0.875rem;
+}
+.team-images{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border-radius: 18px;
+}
+.team-1{
+    background: url(images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;
+    border-radius: 18px;
+}
+.team-2{
+    background: url(images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;
+    border-radius: 18px;
+}
+.team-3{
+    background: url(images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;
+    border-radius: 18px;
+}
+.team-4{
+    background: url(images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;
+    border-radius: 18px;
+}
+.team-5{
+    background: url(images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;
+    border-radius: 18px;
+}
+.team-6{
+    background: url(images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: overlay;
+    border-radius: 18px;
+}
+
+.card{
+    position: relative;
+    width: 325px;
+    height: 270px;
+   
+}
+
+.absolute{
+    position: absolute;
+    top: 220px;
+    margin-left: 20px;
+}
+.absolute-2{
+    position: absolute;
+    top: 240px;
+    margin-left: 20px;
+}
+
+/* team section */
+
+/* footer section */
+
+footer{
+    background-color: rgba(34, 34, 34, 1);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.left h2{
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+    font-size: 4.375rem;
+    font-style: italic;
+}
+.left p{
+    font-size: 0.875rem;
+}
+.middle h4 , .right h4{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.middle ul li , .right ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.middle a , .right a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+.bottom{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom p{
+    font-size: 1.25rem;
+    padding: 30px 0;
+}
+
+/* footer section */
+
+
+
+ /*  responsive section for small devices */
 
  @media screen and (max-width: 430px ) {
     .container{
@@ -299,37 +594,3 @@ nav h3{
     }
  }
 
- 
- /* responsive section for ipad */
-
- @media screen and (min-width:431px) and (max-width: 768px) {
-
-    .container{
-        width: 684px;
-    }
-
-    .workout-texts{
-        margin-left: 360px;
-        margin-top: 580px;
-    }
-    .tutorial-texts{
-        margin-left: 110px;
-         margin-top: 900px;
-    }
-    .banner{
-        flex-direction: column;
-    }
-
-    .banner-img img{
-        display: flex;
-        justify-content: center;
-        /* margin-top: 100px; */
-
-    }
-    .banner-img{
-      height: 100vh;
-      margin: 0 auto;
-      
-      
-    }
- }
