@@ -590,7 +590,7 @@ footer{
 
  /*  responsive section for small devices */
 
- @media screen and (max-width: 430px ) {
+ @media screen and (max-width: 576px ) {
     .container{
         max-width: 353px;
     }
@@ -651,6 +651,32 @@ footer{
     }
     .banner-img{
         height: 100vh;
+    }
+    .habit-img-container{
+        flex-direction: column;
+    }
+    .habit-img{
+        margin-bottom: 30px;
+    }
+    .run{
+        flex-direction: column;
+    }
+    .run-texts button{
+        width: 100%;
+    }
+    .run-image{
+        margin: 0 auto;
+        width: 75%;
+        height: 150px;
+        background-image: url(images/run-2.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 18px;
+        margin-bottom: 30px;
+    }
+    .run-image img{
+        visibility: hidden;
+        
     }
  }
 
