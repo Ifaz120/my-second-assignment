@@ -599,11 +599,7 @@ footer{
  @media screen and (max-width: 576px ) {
     .container{
         max-width: 80%;
-        overflow-x: hidden;
-    }
-    body{
         
-        overflow-x: hidden;
     }
     .links{
         display: none;
@@ -637,10 +633,12 @@ footer{
     .number-2{
         font-size: 30px;
     }
+    .banner{
+        max-width: 80&;
+    }
     .banner-img{
         width: 80%;
         margin: 0 auto;
-        height: 100vh;
     }
     .banner-img img{
         width: 100%;
@@ -675,7 +673,7 @@ footer{
         height: 54px; */
     }
     .banner-img{
-        height: 100vh;
+        /* height: 100vh; */
     }
     .habit-img-container{
         flex-direction: column;
