@@ -605,11 +605,11 @@ footer{
 
  @media screen and (max-width: 576px ) {
     .container{
-        width: 90%;
+        width: 80%;
         max-width: 425px;
     }
     nav{
-        width: 90%;
+        width: 80%;
         max-width: 425px;
     }
     .links{
@@ -773,9 +773,10 @@ footer{
         width: 80%;
         max-width: 425px;
     }
-    .grid-5{
-        width: 100%;
+    .bmi-form form .grid-5{
+        width: 90%;
         max-width: 425px;
+        /* grid-column: span 0; */
     }
     .team{
         width: 80%;
